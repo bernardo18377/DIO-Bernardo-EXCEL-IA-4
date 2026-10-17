@@ -1,0 +1,26 @@
+# A fonte original contém nomes e não faz parte da entrega pública.
+*.xlsx
+*.xls
+*.xlsm
+private/
+attachments/
+
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências, caches e saídas locais
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+test-results/
+playwright-report/
+*.log
+.DS_Store
